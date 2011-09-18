@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="3.194" errors="0" skipped="0" tests="1" name="net.xioh.cloudprise.warehouse.model.CategoryTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.6.0_27\jre\bin"/>
+    <property name="java.vm.version" value="20.2-b06"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Java Projects\warehouse"/>
+    <property name="java.runtime.version" value="1.6.0_27-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Java Projects\warehouse"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.6.0_27\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gustav\AppData\Local\Temp\surefirebooter4337566250520196254.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gustav\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.6.0_27\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;c:\apache-maven-2.2.1\bin;."/>
+    <property name="surefire.test.class.path" value="C:\Java Projects\warehouse\target\test-classes;C:\Java Projects\warehouse\target\classes;C:\Users\Gustav\.m2\repository\org\eclipse\persistence\javax.persistence\2.0.0\javax.persistence-2.0.0.jar;C:\Users\Gustav\.m2\repository\org\eclipse\persistence\eclipselink\2.0.1\eclipselink-2.0.1.jar;C:\Users\Gustav\.m2\repository\org\apache\derby\derbyclient\10.6.1.0\derbyclient-10.6.1.0.jar;C:\Users\Gustav\.m2\repository\org\apache\derby\derby\10.6.1.0\derby-10.6.1.0.jar;C:\Users\Gustav\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Gustav"/>
+    <property name="user.timezone" value="America/La_Paz"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Gustav"/>
+    <property name="java.class.path" value="C:\Java Projects\warehouse\target\test-classes;C:\Java Projects\warehouse\target\classes;C:\Users\Gustav\.m2\repository\org\eclipse\persistence\javax.persistence\2.0.0\javax.persistence-2.0.0.jar;C:\Users\Gustav\.m2\repository\org\eclipse\persistence\eclipselink\2.0.1\eclipselink-2.0.1.jar;C:\Users\Gustav\.m2\repository\org\apache\derby\derbyclient\10.6.1.0\derbyclient-10.6.1.0.jar;C:\Users\Gustav\.m2\repository\org\apache\derby\derby\10.6.1.0\derby-10.6.1.0.jar;C:\Users\Gustav\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.6.0_27\jre"/>
+    <property name="sun.java.command" value="C:\Users\Gustav\AppData\Local\Temp\surefirebooter4337566250520196254.jar C:\Users\Gustav\AppData\Local\Temp\surefire6997700956081078565tmp C:\Users\Gustav\AppData\Local\Temp\surefire8951836805151324620tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_27"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.6.0_27\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.6.0_27\jre\lib\resources.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\rt.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\jce.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.6.0_27\jre\lib\modules\jdk.boot.jar;c:\Program Files\Java\jdk1.6.0_27\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\Gustav\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.071" classname="net.xioh.cloudprise.warehouse.model.CategoryTest" name="shouldCreateACategory"/>
+</testsuite>
